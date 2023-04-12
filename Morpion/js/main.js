@@ -1,7 +1,5 @@
 const buttons = document.getElementsByTagName('button');
 
-
-
 buttons[0].addEventListener('click', event => {
     buttons[0].innerText = 'test';
 });
