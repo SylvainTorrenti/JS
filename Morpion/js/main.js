@@ -1,29 +1,45 @@
-const buttons = document.getElementsByTagName('button');
+const game = document.getElementById("game");
 
-buttons[0].addEventListener('click', event => {
-    buttons[0].innerText = 'test';
-});
-buttons[1].addEventListener('click', event => {
-    buttons[1].innerText = 'test';
-});
-buttons[2].addEventListener('click', event => {
-    buttons[2].innerText = 'test';
-});
-buttons[3].addEventListener('click', event => {
-    buttons[3].innerText = 'test';
-});
-buttons[4].addEventListener('click', event => {
-    buttons[4].innerText = 'test';
-});
-buttons[5].addEventListener('click', event => {
-    buttons[5].innerText = 'test';
-});
-buttons[6].addEventListener('click', event => {
-    buttons[6].innerText = 'test';
-});
-buttons[7].addEventListener('click', event => {
-    buttons[7].innerText = 'test';
-});
-buttons[8].addEventListener('click', event => {
-    buttons[8].innerText = 'test';
-});
+/**
+ * Taille de la grille
+ */
+const sizeOfgrid = 3;
+
+/**
+ * Taille en pixel de la grille
+ */
+const realSizeGrid = 600;
+
+/**
+ * Sauvegarde de l'état de la grille à chaque changement
+ */
+const gridState = [];
+
+
+
+/**
+ * Permet de créer une grille
+ * @param {Number} size Taille de la grille 
+ */
+function CreateGrid(size) {
+
+}
+
+/**
+ * Permet de créer une case de la grille
+ * @param {Number} x Position X
+ * @param {Number} y Position Y
+ */
+function CreateCase(x, y) {
+ 
+}
+
+/**
+ * Permet de créer une nouvelle partie
+ */
+function NewGame() {
+
+}
+
+
+NewGame();
