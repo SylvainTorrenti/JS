@@ -1,3 +1,4 @@
+/* Changement du curseur au survol de l'image (pour permettre une meilleur vision de la zone) */
 img:hover {
     cursor: pointer;
 }
